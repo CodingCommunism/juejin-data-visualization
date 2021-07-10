@@ -1,18 +1,14 @@
 <template>
-  <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
-  <!-- <WordCloud /> -->
   <Container />
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import WordCloud from './components/word-cloud.vue'
 import Container from './components/container.vue'
 
 export default defineComponent({
   name: 'App',
   components: {
-    WordCloud,
     Container
   }
 })
